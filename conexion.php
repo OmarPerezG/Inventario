@@ -2,7 +2,7 @@
 $host = 'localhost';
 $db = 'inventario_ti';
 $user = 'root';
-$pass = 'Julio291987*';
+$pass = '';
 
 $conn = new mysqli($host, $user, $pass, $db);
 if ($conn->connect_error) {
